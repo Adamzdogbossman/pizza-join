@@ -12,7 +12,6 @@ protocol PizzaOrdering{
     func setSize(size:Sizes)
     func setToppings(toppings:Array<Toppings>)
     func Adress(adress:String)
-    func getTimeTillDeliverd()
     func timeTillDeliverd()->Int
     
     
