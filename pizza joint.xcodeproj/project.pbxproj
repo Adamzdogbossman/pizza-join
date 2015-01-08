@@ -13,6 +13,7 @@
 		386746FF1A5F13800023B1C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386746FE1A5F13800023B1C0 /* Images.xcassets */; };
 		386747021A5F13800023B1C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386747001A5F13800023B1C0 /* LaunchScreen.xib */; };
 		3867470E1A5F13800023B1C0 /* pizza_jointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867470D1A5F13800023B1C0 /* pizza_jointTests.swift */; };
+		386747181A5F1AA40023B1C0 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386747171A5F1AA40023B1C0 /* pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		386747071A5F13800023B1C0 /* pizza jointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pizza jointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3867470C1A5F13800023B1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3867470D1A5F13800023B1C0 /* pizza_jointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizza_jointTests.swift; sourceTree = "<group>"; };
+		386747171A5F1AA40023B1C0 /* pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				386746FE1A5F13800023B1C0 /* Images.xcassets */,
 				386747001A5F13800023B1C0 /* LaunchScreen.xib */,
 				386746F51A5F13800023B1C0 /* Supporting Files */,
+				386747171A5F1AA40023B1C0 /* pizza.swift */,
 			);
 			path = "pizza joint";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386747181A5F1AA40023B1C0 /* pizza.swift in Sources */,
 				386746FA1A5F13800023B1C0 /* ViewController.swift in Sources */,
 				386746F81A5F13800023B1C0 /* AppDelegate.swift in Sources */,
 			);
