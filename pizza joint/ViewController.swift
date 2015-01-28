@@ -12,6 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var pizzaPlace = PizzaPlace()
+        pizzaPlace.orderPizza(Sizes.Large, toppings: [Toppings.Cheese], address: "dgw;lefnarm")
+        pizzaPlace.orderPizza(Sizes.Medium, toppings: [Toppings.Jalopenos], address: "tyfujkl")
+        pizzaPlace.orderPizza(Sizes.Small, toppings: [Toppings.Mushrooms], address: "xdgbmhngbf")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
